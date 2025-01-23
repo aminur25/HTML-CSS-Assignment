@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #EDFBFE;
+    background-image: url(/images/bg-hero-desktop.svg);
+    min-height: 50vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 50px;
+    justify-content: space-between;
+    
+}
+.logo{
+    padding: 10px;
+}
+.btn{
+    padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            background: #fff;
+            color: #000000;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+}
+.main1{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+.text1{
+    font-size: small;
+    padding: 30px;
+}
+
+.feature-1{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+.feature-text{
+    flex: 1;
+
+}
+.feature-text h2{
+
+}
+.feature-text p{
+
+}
+
+.feature-img{
+    flex: 1;
+
+}
+
+.feature-img img{
+    align-items: end;
+    width: 200px;
+
+}
